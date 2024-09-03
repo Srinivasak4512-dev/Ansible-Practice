@@ -6,10 +6,10 @@
     TRAINER: "Sivakumar Reddy M"
   # vars_files:
   # - vars.yaml
-  vars_prompt:
-  - name: COURSE
-    prompt: Please enter the course name
-    private: false # not confidential
+  # vars_prompt:
+  # - name: COURSE
+  #   prompt: Please enter the course name
+  #   private: false # not confidential
   tasks:
   - name: print the information
     vars:
@@ -24,4 +24,6 @@
 
 #1. command line/args
 #2. Task level
-#3. Prompt
+#3. File
+#4. Prompt
+
