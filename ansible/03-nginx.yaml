@@ -1,0 +1,9 @@
+# How to install nginx by using playbook
+- name: nginx install and run 
+  hosts: web
+  tasks:
+  - name: install nginx
+    ansible.builtin.package: # heterongenous module that work for all ditros
+      name: nginx
+      state: present
+      
