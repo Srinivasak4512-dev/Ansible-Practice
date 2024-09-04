@@ -1,0 +1,255 @@
+{
+    "system": "Linux",
+    "kernel": "5.14.0-362.18.1.el9_3.x86_64",
+    "kernel_version": "#1 SMP PREEMPT_DYNAMIC Wed Jan 3 15:54:45 EST 2024",
+    "machine": "x86_64",
+    "python_version": "3.9.18",
+    "fqdn": "ip-172-31-45-131.ec2.internal",
+    "hostname": "ip-172-31-45-131",
+    "nodename": "ip-172-31-45-131.ec2.internal",
+    "domain": "ec2.internal",
+    "userspace_bits": "64",
+    "architecture": "x86_64",
+    "userspace_architecture": "x86_64",
+    "machine_id": "6fd191fd77134c718be4bf9a7362db6a",
+    "is_chroot": false,
+    "apparmor": {
+        "status": "disabled"
+    },
+    "virtualization_role": "guest",
+    "virtualization_type": "kvm",
+    "virtualization_tech_guest": [
+        "kvm"
+    ],
+    "virtualization_tech_host": [],
+    "fips": true,
+    "user_id": "root",
+    "user_uid": 0,
+    "user_gid": 0,
+    "user_gecos": "root",
+    "user_dir": "/root",
+    "user_shell": "/bin/bash",
+    "real_user_id": 0,
+    "effective_user_id": 0,
+    "real_group_id": 0,
+    "effective_group_id": 0,
+    "date_time": {
+        "year": "2024",
+        "month": "09",
+        "weekday": "Wednesday",
+        "weekday_number": "3",
+        "weeknumber": "36",
+        "day": "04",
+        "hour": "14",
+        "minute": "48",
+        "second": "27",
+        "epoch": "1725461307",
+        "epoch_int": "1725461307",
+        "date": "2024-09-04",
+        "time": "14:48:27",
+        "iso8601_micro": "2024-09-04T14:48:27.478541Z",
+        "iso8601": "2024-09-04T14:48:27Z",
+        "iso8601_basic": "20240904T144827478541",
+        "iso8601_basic_short": "20240904T144827",
+        "tz": "UTC",
+        "tz_dst": "UTC",
+        "tz_offset": "+0000"
+    },
+    "lsb": {},
+    "fibre_channel_wwn": [],
+    "ansible_local": {},
+    "cmdline": {
+        "BOOT_IMAGE": "(hd0,gpt3)/vmlinuz-5.14.0-362.18.1.el9_3.x86_64",
+        "root": "/dev/mapper/RootVG-rootVol",
+        "ro": true,
+        "crashkernel": "1G-4G:192M,4G-64G:256M,64G-:512M",
+        "fips": "1",
+        "boot": "UUID=230e0624-8e35-4e9d-9dd8-01cd4f7dad3a"
+    },
+    "proc_cmdline": {
+        "BOOT_IMAGE": "(hd0,gpt3)/vmlinuz-5.14.0-362.18.1.el9_3.x86_64",
+        "root": "/dev/mapper/RootVG-rootVol",
+        "ro": true,
+        "crashkernel": "1G-4G:192M,4G-64G:256M,64G-:512M",
+        "fips": "1",
+        "boot": "UUID=230e0624-8e35-4e9d-9dd8-01cd4f7dad3a"
+    },
+    "distribution": "RedHat",
+    "distribution_release": "Plow",
+    "distribution_version": "9.3",
+    "distribution_major_version": "9",
+    "distribution_file_path": "/etc/redhat-release",
+    "distribution_file_variety": "RedHat",
+    "distribution_file_parsed": true,
+    "distribution_file_search_string": "Red Hat",
+    "os_family": "RedHat",
+    "processor": [
+        "0",
+        "GenuineIntel",
+        "Intel(R) Xeon(R) Platinum 8259CL CPU @ 2.50GHz",
+        "1",
+        "GenuineIntel",
+        "Intel(R) Xeon(R) Platinum 8259CL CPU @ 2.50GHz"
+    ],
+    "processor_count": 1,
+    "processor_cores": 1,
+    "processor_threads_per_core": 2,
+    "processor_vcpus": 2,
+    "processor_nproc": 2,
+    "memtotal_mb": 709,
+    "memfree_mb": 304,
+    "swaptotal_mb": 2047,
+    "swapfree_mb": 2010,
+    "memory_mb": {
+        "real": {
+            "total": 709,
+            "used": 405,
+            "free": 304
+        },
+        "nocache": {
+            "free": 535,
+            "used": 174
+        },
+        "swap": {
+            "total": 2047,
+            "free": 2010,
+            "used": 37,
+            "cached": 4
+        }
+    },
+    "bios_date": "10/16/2017",
+    "bios_vendor": "Amazon EC2",
+    "bios_version": "1.0",
+    "board_asset_tag": "i-0ce993a89934b8874",
+    "board_name": "NA",
+    "board_serial": "NA",
+    "board_vendor": "Amazon EC2",
+    "board_version": "NA",
+    "chassis_asset_tag": "Amazon EC2",
+    "chassis_serial": "NA",
+    "chassis_vendor": "Amazon EC2",
+    "chassis_version": "NA",
+    "form_factor": "Other",
+    "product_name": "t3.micro",
+    "product_serial": "ec25d525-2f46-dd4b-8372-93178d802157",
+    "product_uuid": "ec25d525-2f46-dd4b-8372-93178d802157",
+    "product_version": "NA",
+    "system_vendor": "Amazon EC2",
+    "devices": {
+        "dm-1": {
+            "virtual": 1,
+            "links": {
+                "ids": [
+                    "dm-name-RootVG-swapVol",
+                    "dm-uuid-LVM-Z6QgcgIhlttJ2W2P4WDEGMjoYvUaYdkiZM14AD6yOT1b0y5lHDo42m8NLDSELleS"
+                ],
+                "uuids": [
+                    "687a0b66-df29-4849-8ecb-b0a16dad755f"
+                ],
+                "labels": [],
+                "masters": []
+            },
+            "vendor": null,
+            "model": null,
+            "sas_address": null,
+            "sas_device_handle": null,
+            "removable": "0",
+            "support_discard": "0",
+            "partitions": {},
+            "rotational": "0",
+            "scheduler_mode": "",
+            "sectors": "4194304",
+            "sectorsize": "512",
+            "size": "2.00 GB",
+            "host": "",
+            "holders": []
+        },
+        "nvme0n1": {
+            "virtual": 1,
+            "links": {
+                "ids": [
+                    "nvme-Amazon_Elastic_Block_Store_vol0a30968fb871e9a0e",
+                    "nvme-Amazon_Elastic_Block_Store_vol0a30968fb871e9a0e_1",
+                    "nvme-nvme.1d0f-766f6c3061333039363866623837316539613065-416d617a6f6e20456c617374696320426c6f636b2053746f7265-00000001"
+                ],
+                "uuids": [],
+                "labels": [],
+                "masters": []
+            },
+            "vendor": null,
+            "model": "Amazon Elastic Block Store",
+            "sas_address": null,
+            "sas_device_handle": null,
+            "serial": "vol0a30968fb871e9a0e",
+            "removable": "0",
+            "support_discard": "0",
+            "partitions": {
+                "nvme0n1p3": {
+                    "links": {
+                        "ids": [
+                            "nvme-Amazon_Elastic_Block_Store_vol0a30968fb871e9a0e-part3",
+                            "nvme-Amazon_Elastic_Block_Store_vol0a30968fb871e9a0e_1-part3",
+                            "nvme-nvme.1d0f-766f6c3061333039363866623837316539613065-416d617a6f6e20456c617374696320426c6f636b2053746f7265-00000001-part3"
+                        ],
+                        "uuids": [],
+                        "labels": [],
+                        "masters": []
+                    },
+                    "uuid": "",
+                    "start": "61865984",
+                    "end": "209714393",
+                    "sectors": "147848410",
+                    "size": "70.50 GB"
+                }
+            },
+            "rotational": "0",
+            "scheduler_mode": "",
+            "sectors": "209715200",
+            "sectorsize": "512",
+            "size": "100.00 GB",
+            "host": "",
+            "holders": []
+        }
+    },
+    "partitions": {
+        "nvme0n1p3": {
+            "uuid": "",
+            "start": "61865984",
+            "end": "209714393",
+            "sectors": "147848410",
+            "size": "70.50 GB"
+        }
+    },
+    "mounts": {
+        "/": {
+            "device": "/dev/mapper/RootVG-rootVol",
+            "fstype": "xfs",
+            "options": "rw,seclabel,relatime,attr2,inode64,logbufs=8,logbsize=32k,sunit=512,swidth=512,noquota"
+        },
+        "/boot": {
+            "device": "/dev/nvme0n1p3",
+            "fstype": "xfs",
+            "options": "rw,seclabel,relatime,attr2,inode64,logbufs=8,logbsize=32k,sunit=512,swidth=512,noquota"
+        }
+    },
+    "cpu_cores": 1,
+    "memtotal_mb_real": 726,
+    "memfree_mb_real": 304,
+    "processor_cores_per_socket": 1,
+    "processor_sockets": 1,
+    "processor_threads_per_socket": 2,
+    "nvme_version": "1.0",
+    "default_ipv4": {
+        "address": "172.31.45.131",
+        "alias": "ens5",
+        "network": "172.31.45.0",
+        "macaddress": "06:3e:17:c1:1e:16",
+        "netmask": "255.255.240.0",
+        "type": "ether"
+    },
+    "os": {
+        "distribution": "RedHat",
+        "version": "9.3",
+        "codename": "Plow"
+    }
+}
