@@ -3,8 +3,8 @@
   connection: local
   vars:
     subnet_id: subnet-06ce125c8e52b13bb
-    sg_id: sg-0b7d21e84c9923e9e
-    ami_id: ami-09c813fb71547fc4f
+    sg_id: "sg-0b7d21e84c9923e9e"
+    ami_id: "ami-09c813fb71547fc4f"
     instances:
     - mysql
     - backend
@@ -18,5 +18,8 @@
      security_group: "{{ sg_id }}"
      image_id: "{{ ami_id }}"
     loop: "{{ instances }}"
-    register: ec2-instances
-    
+    register: ec2_instances
+  
+  - name: print the output
+    ansible.builtin.debug:
+      msg: "{{ ec2_instances }}"
