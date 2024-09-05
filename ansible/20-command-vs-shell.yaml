@@ -7,3 +7,13 @@
     ansible.builtin.shell: ls -ltr > /tmp/output.txt # login to the server and execute command
 #Command is more secure than shell
 # command module, just issues the command
+
+
+  - name: check the process
+    ansible.builtin.shell: ps -ef | grep ssh
+    register: output
+  
+  - name: check the process
+    ansible.builtin.command: ps -ef | grep ssh
+    register: output
+
